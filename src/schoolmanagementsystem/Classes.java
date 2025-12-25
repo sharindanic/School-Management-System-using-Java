@@ -88,16 +88,7 @@ public class Classes extends javax.swing.JFrame {
     ResultSet rs;
     DefaultTableModel d;
 
-    public void Connect() {
-        try {
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost/school_management_system", "root", "");
-        } catch (SQLException ex) {
-            Logger.getLogger(User.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (ClassNotFoundException ex) {
-            Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
-        }
-    }
+    
 
     public void Class_Load() {
         int c;
