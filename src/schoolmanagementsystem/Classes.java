@@ -117,6 +117,7 @@ public class Classes extends javax.swing.JFrame {
                     v2.add(rs.getString("classname"));
                     v2.add(rs.getString("section"));
                     v2.add(rs.getString("student_strength"));
+                    v2.add(rs.getString("formname"));
                 }
                 d.addRow(v2);
             }
