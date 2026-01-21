@@ -448,6 +448,14 @@ public class Classes extends javax.swing.JFrame {
         Main m = new Main(id, uname, usertype);
         m.setVisible(true);
         this.setVisible(false);
+    }
+    
+
+    private void jMenu1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu1MouseClicked
+        // TODO add your handling code here:
+        Main m = new Main(id, uname, usertype);
+        m.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_jMenu1MouseClicked
 
     private void jMenu2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu2MouseClicked
