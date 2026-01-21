@@ -442,13 +442,6 @@ public class Classes extends javax.swing.JFrame {
             Logger.getLogger(User.class.getName()).log(Level.SEVERE, null, ex);
         }
     }//GEN-LAST:event_editbuttonActionPerformed
-
-    private void jMenu1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu1MouseClicked
-        // TODO add your handling code here:
-        Main m = new Main(id, uname, usertype);
-        m.setVisible(true);
-        this.setVisible(false);
-    }
     
 
     private void jMenu1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jMenu1MouseClicked
